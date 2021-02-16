@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap");
+
+body {
+    font-family: "Mukta";
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.container {
+    margin: 15% auto;
+    width: 700px;
+    display: flex;
+    border: 1px solid salmon;
+}
+
+div.buttons {
+    width: 200px;
+    border: 1px solid skyblue;
+}
+
+div.buttons button {
+    font-family: inherit;
+    width: 170px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 1px solid black;
+    background: white;
+    font-size: 1rem;
+}
+
+div.buttons button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid blue;
+}
+
+.money {
+    text-align: right;
+    width: 150px;
+}
+
+.person {
+    text-align: left;
+    width: 250px;
+}
