@@ -5,6 +5,14 @@ body {
     position: relative;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
 h1 {
     position: absolute;
     top: -90px;
@@ -16,12 +24,10 @@ div.container {
     margin: 15% auto;
     width: 700px;
     display: flex;
-    border: 1px solid salmon;
 }
 
 div.buttons {
     width: 200px;
-    border: 1px solid skyblue;
 }
 
 div.buttons button {
@@ -45,8 +51,8 @@ table {
     width: 100%;
 }
 
-td {
-    border: 1px solid blue;
+tr.tableHeader th {
+    border-bottom: 1px solid gray;
 }
 
 .money {
@@ -57,4 +63,13 @@ td {
 .person {
     text-align: left;
     width: 250px;
+}
+
+.totalTr {
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+}
+
+.hidden {
+    display: none;
 }
